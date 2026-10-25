@@ -4,7 +4,7 @@ cask "darce" do
 
   url "https://github.com/vinny380/darce/releases/download/v#{version}/Darce-#{version}-arm64.dmg"
   name "D'arce"
-  desc "Native macOS browser inspired by Arc"
+  desc "Native browser inspired by Arc"
   homepage "https://github.com/vinny380/darce"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "darce" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "D'arce.app"
 
