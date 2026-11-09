@@ -13,7 +13,7 @@ cask "mark" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Mark.app"
   binary "#{appdir}/Mark.app/Contents/Resources/mark"
